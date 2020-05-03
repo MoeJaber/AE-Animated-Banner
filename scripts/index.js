@@ -20,8 +20,11 @@ animation.addEventListener('complete', function(){
 
 click.addEventListener('click', function(){
   if (completed == true){
-    animation.goToAndPlay(1, false);
-    audio.play();
-    completed = false;
+    window.open('https://g.page/vusi-roofing', '_self');
+    //animation.goToAndPlay(1, false);
+    //audio.play();
+    //completed = false;
   }
 });
+
+//https://g.page/vusi-roofing
